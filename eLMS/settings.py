@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'eLMS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'railway',
-        'HOST': 'containers-us-west-178.railway.app',
+        'NAME': 'elms',
+        'HOST': 'localhost',
         'USER': 'root',
-        'PASSWORD': 'moW5yBQIIfh9YCojc0sG',
+        'PASSWORD': 'jaishreeram',
     }
 }
 
